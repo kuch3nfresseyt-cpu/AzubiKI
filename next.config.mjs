@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   basePath: '/AzubiKI',
+  assetPrefix: '/AzubiKI/',
   output: 'export',
   trailingSlash: true,
   typescript: {
@@ -9,6 +10,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-}
+};
 
-export default nextConfig
+export default nextConfig;
